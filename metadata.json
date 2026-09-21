@@ -1,0 +1,22 @@
+{
+  "source": {
+    "url": "https://shillerdata.com/",
+    "downloadUrl": "https://img1.wsimg.com/blobby/go/e5e77e0b-59d1-44d9-ab25-4763ac982e53/downloads/70fec4f5-727f-4e53-b5f1-179af109c5fa/ie_data.xls",
+    "retrievedAt": "2026-09-21T15:13:18.539592+00:00",
+    "sha256": "044196dafe44c3030b2facbdea023975b3f6aa68b4e52f8f9bafc403e19589c1",
+    "parser": "normalize-shiller-monthly.py v1"
+  },
+  "coverage": {
+    "firstDate": "1871-01",
+    "lastDate": "2026-09",
+    "rowCount": 1869
+  },
+  "annualCoverage": {
+    "firstYear": 1871,
+    "lastYear": 2025,
+    "rowCount": 155
+  },
+  "generatedAt": "2026-09-21T18:26:37.943Z",
+  "parser": "normalize-shiller-monthly.py v1",
+  "validation": "Run node test/all.test.mjs before publishing."
+}
