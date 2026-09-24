@@ -2,9 +2,9 @@
   "source": {
     "url": "https://shillerdata.com/",
     "downloadUrl": "https://img1.wsimg.com/blobby/go/e5e77e0b-59d1-44d9-ab25-4763ac982e53/downloads/70fec4f5-727f-4e53-b5f1-179af109c5fa/ie_data.xls",
-    "retrievedAt": "2026-09-21T18:45:11.345172+00:00",
+    "retrievedAt": "2026-09-24T14:21:13.990408+00:00",
     "sha256": "044196dafe44c3030b2facbdea023975b3f6aa68b4e52f8f9bafc403e19589c1",
-    "parser": "normalize-shiller-monthly.py v1"
+    "parser": "normalize-shiller-monthly.py v2"
   },
   "coverage": {
     "firstDate": "1871-01",
@@ -16,7 +16,10 @@
     "lastYear": 2025,
     "rowCount": 155
   },
-  "generatedAt": "2026-09-21T18:45:11.634Z",
-  "parser": "normalize-shiller-monthly.py v1",
+  "dataset": {
+    "sha256": "671659122ec5452a8ef5b853c1ffa0cb5bb8a015e69e3286b672593efacf8715"
+  },
+  "generatedAt": "2026-09-24T14:21:14.199Z",
+  "parser": "normalize-shiller-monthly.py v2",
   "validation": "Run node test/all.test.mjs before publishing."
 }
