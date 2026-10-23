@@ -2,7 +2,7 @@
   "source": {
     "url": "https://shillerdata.com/",
     "downloadUrl": "https://img1.wsimg.com/blobby/go/e5e77e0b-59d1-44d9-ab25-4763ac982e53/downloads/70fec4f5-727f-4e53-b5f1-179af109c5fa/ie_data.xls",
-    "retrievedAt": "2026-09-24T14:21:13.990408+00:00",
+    "retrievedAt": "2026-10-23T17:55:11.825047+00:00",
     "sha256": "044196dafe44c3030b2facbdea023975b3f6aa68b4e52f8f9bafc403e19589c1",
     "parser": "normalize-shiller-monthly.py v2"
   },
@@ -19,7 +19,17 @@
   "dataset": {
     "sha256": "671659122ec5452a8ef5b853c1ffa0cb5bb8a015e69e3286b672593efacf8715"
   },
-  "generatedAt": "2026-09-24T14:21:14.199Z",
+  "monthlyDataset": {
+    "sha256": "9e8162fbc529c9e813fdc3661d51b4ed46e0fd0c8c95cae5ae1e0fdadca008b8",
+    "coverage": {
+      "firstDate": "1871-01",
+      "lastDate": "2026-06",
+      "observations": 1866,
+      "trimmedIncompleteRows": 0
+    },
+    "sourceTrimmedIncompleteRows": 3
+  },
+  "generatedAt": "2026-10-23T17:55:12.075Z",
   "parser": "normalize-shiller-monthly.py v2",
   "validation": "Run node test/all.test.mjs before publishing."
 }
